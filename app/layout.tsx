@@ -15,19 +15,20 @@ export default function RootLayout({
         <nav className="nav-container">
           <div className="nav-content">
             <div className="nav-links">
-              <a href="/" className="nav-link">
+              <a href="/herramientas-contables-Final" className="nav-link">
                 Buscador de Sumas
               </a>
-              <a href="/integracion" className="nav-link">
+              <a href="/herramientas-contables-Final/integracion" className="nav-link">
                 Integración de Cuentas
               </a>
             </div>
             <Image
-              src="/c3a82c05257e48fd3ddad5ed6d437da0.png"
+              src="/herramientas-contables-Final/images/c3a82c05257e48fd3ddad5ed6d437da0.png"
               alt="Logo"
               width={40}
               height={40}
               className="logo"
+              priority
             />
           </div>
         </nav>
