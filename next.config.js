@@ -4,7 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/herramientas-contables-Final'
+  basePath: '/herramientas-contables-Final',
+  assetPrefix: '/herramientas-contables-Final/',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
