@@ -4,8 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/herramientas-contables-Final' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/herramientas-contables-Final/' : '',
+  basePath: '/herramientas-contables-Final',
+  assetPrefix: '/herramientas-contables-Final/',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
