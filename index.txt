@@ -1,6 +1,6 @@
 1:HL["/herramientas-contables-Final/_next/static/media/a34f9d1faa5f3315-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/herramientas-contables-Final/_next/static/css/4866af92f2cab8a2.css","style"]
-0:["5fKz0utvzUIDj9hOXhhNf",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/herramientas-contables-Final/_next/static/css/4866af92f2cab8a2.css","precedence":"next"}]],"$L4"]]]]
+0:["IQZ9btqP9s2YkTBvx1LRr",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/herramientas-contables-Final/_next/static/css/4866af92f2cab8a2.css","precedence":"next"}]],"$L4"]]]]
 5:I{"id":6964,"chunks":["462:static/chunks/462-8e89b654e578f575.js","185:static/chunks/app/layout-f99459146f60b837.js"],"name":"Image","async":false}
 6:I{"id":1443,"chunks":["272:static/chunks/webpack-330da7dd9372d4ce.js","971:static/chunks/fd9d1056-2057a09b4f46158c.js","864:static/chunks/864-42b77ed99b6d7049.js"],"name":"","async":false}
 7:I{"id":8639,"chunks":["272:static/chunks/webpack-330da7dd9372d4ce.js","971:static/chunks/fd9d1056-2057a09b4f46158c.js","864:static/chunks/864-42b77ed99b6d7049.js"],"name":"","async":false}
