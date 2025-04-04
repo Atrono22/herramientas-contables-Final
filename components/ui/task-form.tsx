@@ -11,7 +11,6 @@ export function TaskForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Procesar números y encontrar combinaciones
     const numberList = numbers
       .split(/[\n,\s]+/)
       .map(n => parseFloat(n.replace(/,/g, '')))
@@ -65,7 +64,7 @@ export function TaskForm() {
           id="numbers"
           value={numbers}
           onChange={(e) => setNumbers(e.target.value)}
-          className="w-full min-h-[100px] p-2 rounded border bg-white/10 text-white"
+          className="w-full min-h-[120px] p-3 rounded-lg border border-white/10 bg-white/5 text-white placeholder-gray-400 focus:outline-none focus:border-blue-500"
           placeholder="Ingresa los números separados por comas, espacios o saltos de línea"
         />
       </div>
@@ -77,19 +76,25 @@ export function TaskForm() {
           type="text"
           value={target}
           onChange={(e) => setTarget(e.target.value)}
-          className="w-full p-2 rounded border bg-white/10 text-white"
+          className="w-full p-3 rounded-lg border border-white/10 bg-white/5 text-white placeholder-gray-400 focus:outline-none focus:border-blue-500"
           placeholder="Ingresa la suma objetivo"
         />
       </div>
 
-      <Button type="submit" className="w-full">
+      <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700">
         Buscar combinaciones
       </Button>
 
       {results.length > 0 && (
-        <div className="mt-4 space-y-2">
+        <div className="mt-6 space-y-2">
+          <h3 className="text-lg font-medium text-white mb-3">
+            Resultados encontrados:
+          </h3>
           {results.map((result, index) => (
-            <div key={index} className="p-2 bg-white/10 rounded">
+            <div 
+              key={index} 
+              className="p-4 rounded-lg bg-white/5 border border-white/10"
+            >
               {result}
             </div>
           ))}
